@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="ZBC_HD_Tickets.MasterPages.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>ZBC Helpdesk Tickets</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+          <link rel="stylesheet" type="text/css" href="../css/table.css" />
+          <link rel="stylesheet" type="text/css" href="../css/main.css" />
+       
+</head>
+<body>
+    <form id="form1" runat="server">
+      
+         
+<asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+
+     <footer>
+               <br />
+               <br />
+               <br />
+               <hr />
+            <div class="row"> 
+                <div class="col-1"></div>
+                
+               
+                <div class="col-2">
+                    
+                        <h6>Du finder os her</h6>
+                    <p>Camp Den Blå And</p>
+                    <p>Jellingvej 57</p>
+                    <p>7182 Bredsten</p>
+                    
+                    
+                </div>
+                <div class="col-2">
+                    <h6>Kontaktinfo</h6>
+                    <p>Telefon: 5615 8888</p>
+                    <p>Email: <a href="kontakt@campdba.dk" target="_blank">kontakt@campdba.dk</a></p>
+                    <p>CVR: DK48594778 </p>
+                </div>
+              
+                <div class="col-4"></div>
+                <div class="col-2">
+                    
+                    <a href="https://www.instagram.com/faarupsocamping/?hl=da">
+                        <img src="/images/instagram.jpg" alt="Instagram Logo" style="width:40px;"/>
+                    </a>
+                    <br />
+                   <a href="https://www.facebook.com/farupsocamping/">
+                       <img src="/images/facebook.jpg" alt="Facebook Logo" style="width:40px;"/>
+                   </a>
+                </div>
+                <div class="col-1"></div>
+                </div>
+        </footer>
+        </form>
+    </body>
+</html>

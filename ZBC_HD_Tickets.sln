@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZBC_HD_Tickets", "ZBC_HD_Tickets\ZBC_HD_Tickets.csproj", "{8B5ECF4D-AA34-47CC-B01A-473D54247AF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKPTickets", "SKPTickets\SKPTickets.csproj", "{01390DB6-A7ED-45F1-833D-9359C90135EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B5ECF4D-AA34-47CC-B01A-473D54247AF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B5ECF4D-AA34-47CC-B01A-473D54247AF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B5ECF4D-AA34-47CC-B01A-473D54247AF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B5ECF4D-AA34-47CC-B01A-473D54247AF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01390DB6-A7ED-45F1-833D-9359C90135EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01390DB6-A7ED-45F1-833D-9359C90135EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01390DB6-A7ED-45F1-833D-9359C90135EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01390DB6-A7ED-45F1-833D-9359C90135EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {574FEFB9-49EE-4E3C-AC06-4E73085AEEBC}
+	EndGlobalSection
+EndGlobal

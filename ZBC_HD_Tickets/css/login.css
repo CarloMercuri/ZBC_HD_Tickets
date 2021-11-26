@@ -1,0 +1,68 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url('../img/bg2.png') no-repeat;
+    background-size: 1980px 950px;
+}
+
+#loginHeader {
+    width: 30%;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    border-bottom: 5px solid;
+    padding: 5px 10px;
+}
+
+#errorStatus {
+    padding: 10px 40%;
+    color: red;
+    font-size: 18px;
+}
+
+.loginBox {
+    width: 15%;
+    margin-left: 40%;
+    margin-top: 15%;
+    box-sizing: border-box;
+}
+
+.indexTextStyle {
+    text-shadow: 1px 1px 2px rgb(0, 8, 116);
+    color: rgb(204, 204, 204);
+    font-size: 18px;
+}
+
+.infoInput {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 2px;
+    margin-top: 5px;
+}
+
+#btn_Submit {
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #3a37ee);
+    box-sizing: border-box;
+    border: 5px;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+#infoButton {
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #3a37ee);
+    box-sizing: border-box;
+    border: 5px;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+#loginHeader {
+    width: 50%;
+    margin: auto;
+}

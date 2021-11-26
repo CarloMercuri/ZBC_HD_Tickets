@@ -1,0 +1,45 @@
+﻿.styled-table {
+    border-collapse: separate;
+    border-radius: 5px;
+    background: #fff;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+tbody tr td {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px 5px 5px 5px;
+    width: 200px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+tbody tr:nth-child(odd) {
+    background: #f0f3f5;
+}
+
+tbody:hover > tr td {
+    opacity: 0.5;
+}
+
+tbody:hover > tr:hover td {
+    text-shadow: none;
+    color: #2d2d2d;
+    opacity: 1.0;
+}
+
+thead th {
+    font-family: 'Patua One', cursive;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 5px;
+    background-image: linear-gradient(#646f7f, #4a5564);
+    border-top: 1px solid #858d99;
+}
